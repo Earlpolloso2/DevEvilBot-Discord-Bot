@@ -11,7 +11,7 @@ module.exports = {
 		const server = new Discord.MessageEmbed()
 		.setColor(colors.main)
 		.setTitle('Server')
-		.addField('Support Server', '**[Click Here](https://discord.gg/jsQ9UP7kCA)**', true)
+		.addField('Support Server', '**[Click Here](https://discord.gg/4vpJRCNvYA)**', true)
 		.setThumbnail(client.user.displayAvatarURL({ format: 'png', dynamic: true, size: 1024 }))
 		message.channel.send(server)
 	}
