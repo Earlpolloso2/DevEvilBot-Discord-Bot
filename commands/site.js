@@ -10,7 +10,7 @@ module.exports = {
 		const server = new Discord.MessageEmbed()
 		.setColor(colors.main)
 		.setTitle('Website')
-		.setDescription('**[Click Here](https://devevilbot.xyz)**')
+		.setDescription('**[Click Here](https://guns.lol/unibypasser)**')
 		.setThumbnail(client.user.displayAvatarURL({ format: 'png', dynamic: true, size: 1024 }))
 		message.channel.send(server)
 	}
