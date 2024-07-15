@@ -13,7 +13,7 @@ module.exports = {
 		.setTitle("Bot Info")
 		.addField(`Bot Name`, `**${client.user.username}**`, true)
 		.addField(`ID`, `**${client.user.id}**`)
-		.addField(`Developer`, `**<@468132563714703390>**`)
+		.addField(`Developer`, `**<@1074763726856654898>**`)
 		.addField(`Website`, `**[devevilbot.xyz](https://guns.lol/unibypasser)**`)
 		.addField(`Server`, `**[Click Here](https://discord.gg/4vpJRCNvYA)**`)
 		.addField(`Discord.js Version`, `**${Discord.version}**`, true)
