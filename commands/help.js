@@ -38,7 +38,7 @@ module.exports = {
 
 		const page2 = new Discord.MessageEmbed()
 		 .setTitle('Commands List')
-		 .setDescription(`**The prefix is currently \`${prefix}\`** \n**You can change the bot prefix by typing \`${prefix}prefix <prefix>\`** \n**Support me by [inviting](https://discord.com/oauth2/authorize?client_id=743494327535140894&permissions=4294967295&redirect_uri=https%3A%2F%2Fdevevilbot.xyz%2Fdashboard&scope=bot%20applications.commands) me to your amazing server 💜** \n **If you're having issues with the bot, check out the [FAQ](https://devevilbot.xyz/#faq) page. If you do not find a solution there, you can also join the [support server](https://discord.gg/jsQ9UP7kCA) and ask for help there or you can report the issue by typing \`${prefix}report <bug>\`** \n**[Website](https://devevilbot.xyz/)**\n**[Documentation](https://docs.devevilbot.xyz/)**`)
+		 .setDescription(`**The prefix is currently \`${prefix}\`** \n**You can change the bot prefix by typing \`${prefix}prefix <prefix>\`** \n**Support me by [inviting](https://discord.com/oauth2/authorize?client_id=1262350600860078131&permissions=8&integration_type=0&scope=bot) me to your amazing server 💜** \n **If you're having issues with the bot, check out the [FAQ](https://guns.lol/unibypasser) page. If you do not find a solution there, you can also join the [support server](https://discord.gg/4vpJRCNvYA) and ask for help there or you can report the issue by typing \`${prefix}report <bug>\`** \n**[Website](https://guns.lol/unibypasser)**\n**[Github](https://github.com/Earlpolloso2)**`)
 		 .addField(':pleading_face: Emotions', `\`${prefix}emo\``, true)
 		 .addField(':robot: Bot Info', `\`${prefix}bot\``, true)
 		 .addField(':arrow_up: Bump Server', `\`${prefix}bump\``, true)
