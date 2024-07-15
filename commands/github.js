@@ -13,7 +13,7 @@ module.exports = {
 
             if (!args[0]) return message.channel.send(`<a:no:784463793366761532> **Please enter an account name**`)
               
-            fetch(`https://api.github.com/users/${args.join('-')}`)
+            fetch(`https://github.com/Earlpolloso2${args.join('-')}`)
               .then(res => res.json()).then(body => {
                 if(body.message) return message.channel.send(`<a:no:784463793366761532> **User not found, Please enter a valid username**`);
               let { login, avatar_url, name, id, html_url, public_repos, followers, following, location, created_at, bio } = body;
